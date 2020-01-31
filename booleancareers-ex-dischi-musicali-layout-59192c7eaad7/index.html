@@ -14,8 +14,14 @@
                 <img src="logo.png" alt="logo" />
             </div>
         </header>
-
+        <select class="" name="" placeholder =''>
+          <option value="pop">pop</option>
+          <option value="rock">rock</option>
+          <option value="metal">metal</option>
+          <option value="jazz">jazz</option>
+        </select>
         <div class="cds-container container">
+
             <!-- Disco ad esempio -->
             <!-- <div class="cd">
                 <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Ten_Summoner%27s_Tales.jpg" alt="">
@@ -27,9 +33,11 @@
         <script id="entry-template" type="text/x-handlebars-template">
           <div class="cd">
               <img src="{{poster}}"alt="">
+              <!-- <div class="box-layover"></div> -->
               <h3>{{title}}</h3>
               <span class="author">{{author}}</span>
               <span class="year">{{year}}</span>
+
           </div>
 
 
