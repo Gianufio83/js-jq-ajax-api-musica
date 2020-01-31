@@ -28,6 +28,7 @@ header img {
 select {
   background-color: white;
   display: inline-block;
+  margin: 0 auto;
   width: 200px;
 }
 .cds-container {
